@@ -1,0 +1,4 @@
+.idea
+dbt_training/target/
+dbt_training/dbt_packages/
+dbt_training/logs/

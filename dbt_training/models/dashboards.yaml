@@ -1,0 +1,14 @@
+version: 2
+exposures:
+  - name: executive_dashboard
+    label: Executive dashboard
+    type: dashboard
+    maturity: low
+    url: https://88f326ff.us2a.app.preset.io/superset/dashboard/p/nkwOzpmJ3yL/
+    description: Executive Dashboard about Airbnb listings and hosts
+    depends_on:
+       - ref('dim_listings_w_hosts')
+       - ref('mart_fullmoon_reviews')
+    owner:
+     name: Volodymyr Kiriushyn
+     email: volodymyr.kiriushyn@nure.ua
